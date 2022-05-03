@@ -1,0 +1,7 @@
+Функции 
+https://myblaze.ru/urok-10-php-function/
+https://puzzleweb.ru/php/23_function.php
+
+Анонимные функции
+https://ruseller.com/lessons.php?rub=37&id=970
+https://www.php.net/manual/ru/functions.anonymous.php
