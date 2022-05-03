@@ -51,5 +51,6 @@ return [
             'yearEnd' => 2014,
         ],
 
-    ]
+    ],
+    'avatar' => 'assets/images/avatar.jpg'
 ];

@@ -11,6 +11,7 @@
 
 $data = require('data.php');
 $aboutData = $data['about'];
+$avatar = $data['avatar'];
 $educationData = $data['education'];
 $languagesData = $data['languages'];
 $interestsData = $data['interests'];
@@ -50,7 +51,7 @@ $expData = $data['experiences'];
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
+                <img class="profile" src="<?= $avatar ?>" alt="avatar" />
                 <h1 class="name"><?= $aboutData['name'] ?></h1>
                 <h3 class="tagline"><?= $aboutData['post'] ?></h3>
             </div><!--//profile-container-->
