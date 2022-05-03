@@ -1,0 +1,7 @@
+Переменные
+http://www.php.su/learnphp/vars/?basic
+https://puzzleweb.ru/php/02_variables.php
+
+Операторы
+http://php.net/manual/ru/language.operators.php
+http://www.php.su/learnphp/operators/

@@ -1,0 +1,9 @@
+Типы данных
+https://www.php.net/manual/ru/language.types.php
+http://www.php.su/learnphp/datatypes/
+
+Условия, циклы и другие управляющие конструкции
+https://www.php.net/manual/ru/language.control-structures.php
+https://starper55plys.ru/php/upravlyayushhie-konstruktsii/
+https://afirewall.ru/php-if-else-usloviya-v-php
+http://tradebenefit.ru/cikly-v-php
