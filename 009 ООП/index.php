@@ -47,8 +47,8 @@ class SportsArticle extends Article
 
 class WeatherArticle extends Article
 {
-    public $temperature;
-    public function __construct(string $title, string $articleBody, string $border, string $bg, string $temperature, int $titleFontSize=20, int $articleBodyFontSize=14)
+    public string $temperature;
+    #[Pure] public function __construct(string $title, string $articleBody, string $border, string $bg, string $temperature, int $titleFontSize=20, int $articleBodyFontSize=14)
     {
         $this->temperature = $temperature;
         parent::__construct($title, $articleBody, $border, $bg, $titleFontSize, $articleBodyFontSize);
@@ -63,8 +63,8 @@ class WeatherArticle extends Article
 
 class PoliticsArticle extends Article
 {
-    public $link;
-    public function __construct(string $title, string $articleBody, string $border, string $bg, string $link, int $titleFontSize=20, int $articleBodyFontSize=14)
+    public string $link;
+    #[Pure] public function __construct(string $title, string $articleBody, string $border, string $bg, string $link, int $titleFontSize=20, int $articleBodyFontSize=14)
     {
         $this->link = $link;
         parent::__construct($title, $articleBody, $border, $bg, $titleFontSize, $articleBodyFontSize);
